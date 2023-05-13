@@ -1,0 +1,35 @@
+.galelry_item{
+	float: left;
+	width: 33.333%;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.galelry_item:nth-child(3n){
+	margin-right: 3px;
+
+}
+@media(min-width: 800px){
+	.galelry_item{
+		width: 25%;
+		text-align: center;
+	}
+
+}
+
+div{
+	width: 100px;
+	background-color: purple;
+	border: 1px solid black;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 24px;     
+	 
+}
+
+iframe{
+	margin: 50px 0px 50px 11px;
+}
+
+ 
